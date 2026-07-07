@@ -22,7 +22,7 @@ public class OmniDriveTeleOp extends OpMode {
         BLwheel = hardwareMap.get(DcMotor.class, "BLwheel");
 
         // Reverse left side so forward stick makes robot go forward
-        FLwheel.setDirection(DcMotorSimple.Direction.REVERSE);
+        FRwheel.setDirection(DcMotorSimple.Direction.REVERSE);
         BLwheel.setDirection(DcMotorSimple.Direction.REVERSE);
 
         FRwheel.setZeroPowerBehavior(DcMotor.ZeroPowerBehavior.BRAKE);
